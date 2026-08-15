@@ -2,17 +2,73 @@ import "./Hero.css";
 
 function Hero() {
   return (
-    <section id = "home" className="hero">
-      <h1>Hello, I'm Ritesh Noukudkar</h1>
+    <section id="home" className="hero">
 
-      <h2>Data Analyst | React Developer</h2>
+      <div className="hero-content">
 
-      <p>
-        Welcome to my portfolio. Here you can explore my projects, skills,
-        certifications, and professional journey.
-      </p>
+        <div className="availability">
+          <span className="status-dot"></span>
+          Available for Data Analyst roles
+        </div>
 
-      <button>Download Resume</button>
+        <h1>
+          Ritesh Maruti
+          <br />
+          <span>Noukudkar</span>
+        </h1>
+
+        <h2>
+          I'm a <span>Data Analyst</span>
+        </h2>
+
+        <p>
+          Turning raw data into business insights through analytics,
+          visualization and automation.
+        </p>
+
+        <div className="hero-buttons">
+          <a href="/resume.pdf" className="btn primary-btn">
+            Download Resume
+          </a>
+
+          <a href="#projects" className="btn secondary-btn">
+            View Projects →
+          </a>
+
+          <a href="#contact" className="btn secondary-btn">
+            Contact Me
+          </a>
+        </div>
+        <div className="hero-stats">
+
+      <div className="stat-card">
+        <h3>0+</h3>
+        <p>Projects</p>
+           </div>
+
+  <div className="stat-card">
+    <h3>2+</h3>
+    <p>Internships</p>
+  </div>
+
+  <div className="stat-card">
+    <h3>15+</h3>
+    <p>Certificates</p>
+  </div>
+
+  <div className="stat-card">
+    <h3>1+</h3>
+    <p>Publications</p>
+  </div>
+
+  <div className="stat-card">
+    <h3>24+</h3>
+    <p>GitHub Repos</p>
+  </div>
+
+</div>
+      </div>
+
     </section>
   );
 }
