@@ -1,6 +1,10 @@
 import { useEffect,useState } from "react";
 import "./Hero.css";
-
+import {
+  FaGithub,
+  FaLinkedin,
+  FaEnvelope
+} from "react-icons/fa";
 
 
 function Hero() {
@@ -77,6 +81,35 @@ useEffect(() => {
           <a href="#contact" className="btn secondary-btn">
             Contact Me
           </a>
+        </div>
+
+        <div className="social-links">
+            <a
+          href="https://github.com/RiteshNoukudkar"
+          target="_blank"
+          rel="noopener noreferrer"
+            aria-label="GitHub"
+               >
+                <FaGithub />
+                </a>
+
+                <a href="https://www.linkedin.com/in/ritesh-noukudkar"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="LinkedIn"
+                >
+                  <FaLinkedin />
+                </a>
+
+  <a
+  href="https://mail.google.com/mail/?view=cm&fs=1&to=riteshnoukudkar@gmail.com"
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="Email"
+>
+  <FaEnvelope />
+</a>
+
         </div>
         <div className="hero-stats">
 
