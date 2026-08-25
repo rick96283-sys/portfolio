@@ -1,6 +1,45 @@
+import { useEffect,useState } from "react";
 import "./Hero.css";
 
+
+
 function Hero() {
+  //typing effect 
+    const roles = [
+  "Data Analyst",
+  "Power BI Developer",
+  "React Developer",
+  "Python Developer"
+];
+
+const [roleIndex, setRoleIndex] = useState(0);
+const [displayText, setDisplayText] = useState("");
+const [isDeleting, setIsDeleting] = useState(false);
+
+useEffect(() => {
+  const currentRole = roles[roleIndex];
+
+  const typingSpeed = isDeleting ? 60 : 120;
+
+  const timer = setTimeout(() => {
+    if (!isDeleting) {
+      setDisplayText(currentRole.substring(0, displayText.length + 1));
+
+      if (displayText.length + 1 === currentRole.length) {
+        setTimeout(() => setIsDeleting(true), 1200);
+      }
+    } else {
+      setDisplayText(currentRole.substring(0, displayText.length - 1));
+
+      if (displayText.length === 0) {
+        setIsDeleting(false);
+        setRoleIndex((current) => (current + 1) % roles.length);
+      }
+    }
+  }, typingSpeed);
+
+  return () => clearTimeout(timer);
+}, [displayText, isDeleting, roleIndex]);
   return (
     <section id="home" className="hero">
 
@@ -18,7 +57,7 @@ function Hero() {
         </h1>
 
         <h2>
-          I'm a <span>Data Analyst</span>
+          I'm a <span>{displayText}</span>
         </h2>
 
         <p>
