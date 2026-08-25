@@ -10,7 +10,7 @@ function Hero() {
           <span className="status-dot"></span>
           Available for Data Analyst roles
         </div>
-
+        
         <h1>
           Ritesh Maruti
           <br />
@@ -52,7 +52,7 @@ function Hero() {
   </div>
 
   <div className="stat-card">
-    <h3>15+</h3>
+    <h3>11+</h3>
     <p>Certificates</p>
   </div>
 
@@ -62,13 +62,15 @@ function Hero() {
   </div>
 
   <div className="stat-card">
-    <h3>24+</h3>
+    <h3>6+</h3>
     <p>GitHub Repos</p>
   </div>
 
 </div>
       </div>
-
+<div className="hero-image">
+           <img src="/src/assets/images/myprof.png" alt="Ritesh Noukudkar" />
+           </div>
     </section>
   );
 }
