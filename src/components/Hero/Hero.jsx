@@ -44,6 +44,7 @@ useEffect(() => {
 
   return () => clearTimeout(timer);
 }, [displayText, isDeleting, roleIndex]);
+
   return (
     <section id="home" className="hero">
 
@@ -144,6 +145,7 @@ useEffect(() => {
            <img src="/src/assets/images/myprof.png" alt="Ritesh Noukudkar" />
            </div>
     </section>
+    
   );
 }
 
