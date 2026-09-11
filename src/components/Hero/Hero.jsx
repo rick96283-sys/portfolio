@@ -71,9 +71,9 @@ useEffect(() => {
         </p>
 
         <div className="hero-buttons">
-          <a href="/resume.pdf" className="btn primary-btn">
-            Download Resume
-          </a>
+         <a href="/Ritesh_Noukudkar_Resume.pdf" className="btn primary-btn">
+          Download Resume
+               </a>
 
           <a href="#projects" className="btn secondary-btn">
             View Projects →
