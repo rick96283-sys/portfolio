@@ -5,7 +5,9 @@ function Projects() {
     <section id="projects" className="projects">
       <div className="projects-container">
 
-        {/* Heading */}
+        {/* =========================
+            SECTION HEADING
+        ========================== */}
 
         <div className="projects-heading">
           <span>MY PROJECTS</span>
@@ -13,18 +15,23 @@ function Projects() {
           <h2>Projects I've Built</h2>
 
           <p>
-            Practical data analytics projects where I applied
-            Python, SQL, visualization, and analytical techniques
-            to solve real-world problems.
+            Practical data analytics and AI projects where I applied
+            Python, SQL, visualization, machine learning, and analytical
+            techniques to solve real-world problems.
           </p>
         </div>
 
 
-        {/* Projects */}
+        {/* =========================
+            PROJECTS GRID
+        ========================== */}
 
         <div className="projects-grid">
 
-          {/* Project 01 - Sentiment Analysis */}
+
+          {/* =========================
+              PROJECT 01
+          ========================== */}
 
           <div className="project-card">
 
@@ -58,6 +65,7 @@ function Projects() {
 
               <div className="project-buttons">
 
+                {/* Replace this URL with your actual repository */}
                 <a
                   href="#"
                   className="project-btn primary-project-btn"
@@ -65,6 +73,7 @@ function Projects() {
                   GitHub ↗
                 </a>
 
+                {/* Replace this URL with your actual project */}
                 <a
                   href="#"
                   className="project-btn secondary-project-btn"
@@ -78,7 +87,10 @@ function Projects() {
           </div>
 
 
-          {/* Project 02 - Customer Segmentation */}
+
+          {/* =========================
+              PROJECT 02
+          ========================== */}
 
           <div className="project-card">
 
@@ -112,6 +124,7 @@ function Projects() {
 
               <div className="project-buttons">
 
+                {/* Replace this URL with your actual repository */}
                 <a
                   href="#"
                   className="project-btn primary-project-btn"
@@ -119,6 +132,7 @@ function Projects() {
                   GitHub ↗
                 </a>
 
+                {/* Replace this URL with your actual project */}
                 <a
                   href="#"
                   className="project-btn secondary-project-btn"
@@ -132,7 +146,10 @@ function Projects() {
           </div>
 
 
-          {/* Project 03 - Retail Sales EDA */}
+
+          {/* =========================
+              PROJECT 03
+          ========================== */}
 
           <div className="project-card">
 
@@ -168,12 +185,77 @@ function Projects() {
               <div className="project-buttons">
 
                 <a
+                  href="https://github.com/RiteshNoukudkar/Retail-Sales-EDA"
+                  className="project-btn primary-project-btn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub ↗
+                </a>
+
+                <a
+                  href="https://github.com/RiteshNoukudkar/Retail-Sales-EDA"
+                  className="project-btn secondary-project-btn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View Project ↗
+                </a>
+
+              </div>
+
+            </div>
+          </div>
+
+
+
+          {/* =========================
+              PROJECT 04
+          ========================== */}
+
+          <div className="project-card">
+
+            <div className="project-number">
+              04
+            </div>
+
+            <div className="project-content">
+
+              <div className="project-type">
+                AI / WEB DEVELOPMENT
+              </div>
+
+              <h3>
+                DreamPlay AI
+              </h3>
+
+              <p>
+                An AI-powered platform that converts natural language
+                prompts into playable 2D games. The project combines
+                AI-based prompt processing with game development
+                technologies to generate interactive gameplay
+                experiences.
+              </p>
+
+              <div className="project-tags">
+                <span>Machine Learning</span>
+                <span>Python</span>
+                <span>API</span>
+                <span>AI</span>
+                <span>HTML5 Canvas</span>
+              </div>
+
+              <div className="project-buttons">
+
+                {/* Add your DreamPlay AI GitHub URL here */}
+                <a
                   href="#"
                   className="project-btn primary-project-btn"
                 >
                   GitHub ↗
                 </a>
 
+                {/* Add your live project URL here */}
                 <a
                   href="#"
                   className="project-btn secondary-project-btn"
@@ -185,48 +267,9 @@ function Projects() {
 
             </div>
           </div>
-           <div className="project-card">
-  <div className="project-number">04</div>
 
-  <div className="project-content">
-    <div className="project-type">AI / WEB DEVELOPMENT</div>
 
-    <h3>DreamPlay AI</h3>
-
-    <p>
-      An AI-powered platform that converts natural language prompts
-      into playable 2D games. The project combines AI-based prompt
-      processing with game development technologies to generate
-      interactive gameplay experiences.
-    </p>
-
-    <div className="project-tags">
-      <span>Machine Learning</span>
-      <span>Python</span>
-      <span>API</span>
-      <span>AI</span>
-      <span>HTML5 Canvas</span>
-    </div>
-
-    <div className="project-buttons">
-      <a
-        href="#"
-        className="project-btn primary-project-btn"
-      >
-        GitHub ↗
-      </a>
-
-      <a
-        href="#"
-        className="project-btn secondary-project-btn"
-      >
-        View Project ↗
-      </a>
-    </div>
-  </div>
-</div>
         </div>
-
       </div>
     </section>
   );

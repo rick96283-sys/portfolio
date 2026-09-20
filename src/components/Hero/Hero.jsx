@@ -71,7 +71,7 @@ useEffect(() => {
         </p>
 
         <div className="hero-buttons">
-         <a href="/Ritesh_Noukudkar_Resume.pdf" className="btn primary-btn">
+         <a href="/Ritesh_Noukudkar_DA_9067140037.pdf" className="btn primary-btn">
           Download Resume
                </a>
 
@@ -115,7 +115,7 @@ useEffect(() => {
         <div className="hero-stats">
 
       <div className="stat-card">
-        <h3>0+</h3>
+        <h3>4+</h3>
         <p>Projects</p>
            </div>
 
@@ -125,7 +125,7 @@ useEffect(() => {
   </div>
 
   <div className="stat-card">
-    <h3>11+</h3>
+    <h3>12+</h3>
     <p>Certificates</p>
   </div>
 
@@ -142,7 +142,7 @@ useEffect(() => {
 </div>
       </div>
 <div className="hero-image">
-           <img src="/src/assets/images/myprof.png" alt="Ritesh Noukudkar" />
+           <img src="./src/assets/images/myprof.png" alt="Ritesh Noukudkar" />
            </div>
     </section>
     
