@@ -17,8 +17,8 @@ function Contact() {
           <span>CONTACT</span>
 
           <h2>
-            Let's Work <br />
-            <strong>Together</strong>
+            Let's <br />
+            <strong>Connect Me</strong>
           </h2>
 
           <p>
