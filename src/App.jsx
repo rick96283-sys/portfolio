@@ -7,6 +7,7 @@ import Projects from "./components/Projects/Project";
 import Certificates from "./components/Certificates/Certificates";
 import Contact from "./components/Contact/Contact";
 import Education from "./components/Education/Education";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Certificates/>
       <Education/>
       <Contact/>
+      <Footer/>
     </>
   );
 }

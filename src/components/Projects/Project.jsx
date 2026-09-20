@@ -28,6 +28,7 @@ function Projects() {
 
         <div className="projects-grid">
 
+          
 
           {/* =========================
               PROJECT 01
@@ -37,6 +38,66 @@ function Projects() {
 
             <div className="project-number">
               01
+            </div>
+
+            <div className="project-content">
+
+              <div className="project-type">
+                AI / WEB DEVELOPMENT
+              </div>
+
+              <h3>
+                DreamPlay AI
+              </h3>
+
+              <p>
+                An AI-powered platform that converts natural language
+                prompts into playable 2D games. The project combines
+                AI-based prompt processing with game development
+                technologies to generate interactive gameplay
+                experiences.
+              </p>
+
+              <div className="project-tags">
+                <span>Machine Learning</span>
+                <span>Python</span>
+                <span>API</span>
+                <span>AI</span>
+                <span>HTML5 Canvas</span>
+              </div>
+
+              <div className="project-buttons">
+
+                {/* Add your DreamPlay AI GitHub URL here */}
+                <a
+                  href="#"
+                  className="project-btn primary-project-btn"
+                >
+                  GitHub ↗
+                </a>
+
+                {/* Add your live project URL here */}
+                <a
+                  href="#"
+                  className="project-btn secondary-project-btn"
+                >
+                  View Project ↗
+                </a>
+
+              </div>
+
+            </div>
+          </div>
+
+
+          {/* =========================
+              PROJECT 02
+          ========================== */}
+
+          <div className="project-card">
+
+            <div className="project-number">
+              02
             </div>
 
             <div className="project-content">
@@ -60,65 +121,6 @@ function Projects() {
                 <span>Pandas</span>
                 <span>NLTK</span>
                 <span>Machine Learning</span>
-                <span>Data Analysis</span>
-              </div>
-
-              <div className="project-buttons">
-
-                {/* Replace this URL with your actual repository */}
-                <a
-                  href="#"
-                  className="project-btn primary-project-btn"
-                >
-                  GitHub ↗
-                </a>
-
-                {/* Replace this URL with your actual project */}
-                <a
-                  href="#"
-                  className="project-btn secondary-project-btn"
-                >
-                  View Project ↗
-                </a>
-
-              </div>
-
-            </div>
-          </div>
-
-
-
-          {/* =========================
-              PROJECT 02
-          ========================== */}
-
-          <div className="project-card">
-
-            <div className="project-number">
-              02
-            </div>
-
-            <div className="project-content">
-
-              <div className="project-type">
-                DATA ANALYTICS
-              </div>
-
-              <h3>
-                Customer Segmentation
-              </h3>
-
-              <p>
-                An internship project focused on analyzing customer
-                data and identifying different customer groups based
-                on purchasing behavior and patterns.
-              </p>
-
-              <div className="project-tags">
-                <span>Python</span>
-                <span>Pandas</span>
-                <span>NumPy</span>
-                <span>Clustering</span>
                 <span>Data Analysis</span>
               </div>
 
@@ -207,9 +209,7 @@ function Projects() {
             </div>
           </div>
 
-
-
-          {/* =========================
+{/* =========================
               PROJECT 04
           ========================== */}
 
@@ -222,32 +222,30 @@ function Projects() {
             <div className="project-content">
 
               <div className="project-type">
-                AI / WEB DEVELOPMENT
+                DATA ANALYTICS
               </div>
 
               <h3>
-                DreamPlay AI
+                Customer Segmentation
               </h3>
 
               <p>
-                An AI-powered platform that converts natural language
-                prompts into playable 2D games. The project combines
-                AI-based prompt processing with game development
-                technologies to generate interactive gameplay
-                experiences.
+                An internship project focused on analyzing customer
+                data and identifying different customer groups based
+                on purchasing behavior and patterns.
               </p>
 
               <div className="project-tags">
-                <span>Machine Learning</span>
                 <span>Python</span>
-                <span>API</span>
-                <span>AI</span>
-                <span>HTML5 Canvas</span>
+                <span>Pandas</span>
+                <span>NumPy</span>
+                <span>Clustering</span>
+                <span>Data Analysis</span>
               </div>
 
               <div className="project-buttons">
 
-                {/* Add your DreamPlay AI GitHub URL here */}
+                {/* Replace this URL with your actual repository */}
                 <a
                   href="#"
                   className="project-btn primary-project-btn"
@@ -255,7 +253,7 @@ function Projects() {
                   GitHub ↗
                 </a>
 
-                {/* Add your live project URL here */}
+                {/* Replace this URL with your actual project */}
                 <a
                   href="#"
                   className="project-btn secondary-project-btn"
