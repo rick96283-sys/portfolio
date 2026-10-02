@@ -1,9 +1,18 @@
 import { useState } from "react";
 import "./Certificates.css";
 
-function Certificates() {
+import Agile from "../../assets/Certificates/Agile.png";
+import CognitiveClass from "../../assets/Certificates/Cognitive Class.png";
+import DataAnalyst101 from "../../assets/Certificates/Data Analyst 101.png";
+import GenAITata from "../../assets/Certificates/GEN AI Tata.png";
+import IBMBatch from "../../assets/Certificates/IBm Batch.png";
+import PCI from "../../assets/Certificates/PCI.png";
+import Proto2Prod from "../../assets/Certificates/proto2prod.jpeg";
+import SkillTest from "../../assets/Certificates/Skill Test.png";
+import SQLFoundation from "../../assets/Certificates/SQL Foundation.png";
+import YoungTCS from "../../assets/Certificates/young Tcs.png";
 
-  // Stores the image that should be displayed in fullscreen
+function Certificates() {
   const [selectedImage, setSelectedImage] = useState(null);
 
   return (
@@ -57,31 +66,18 @@ function Certificates() {
                 Credential ID: 272697-33213523-1016
               </span>
 
-              <a
-                href="#"
-                className="certificate-btn"
-              >
-                View Credential ↗
-              </a>
-
             </div>
 
 
             <div
               className="certificate-image-box"
-              onClick={() =>
-                setSelectedImage(
-                  "./src/assets/Certificates/young Tcs.png"
-                )
-              }
+              onClick={() => setSelectedImage(YoungTCS)}
             >
-
               <img
-                src="./src/assets/Certificates/young Tcs.png"
+                src={YoungTCS}
                 alt="TCS iON Career Edge Certificate"
                 className="certificate-image"
               />
-
             </div>
 
           </div>
@@ -126,19 +122,13 @@ function Certificates() {
 
             <div
               className="certificate-image-box"
-              onClick={() =>
-                setSelectedImage(
-                  "./src/assets/Certificates/Agile.png"
-                )
-              }
+              onClick={() => setSelectedImage(Agile)}
             >
-
               <img
-                src="./src/assets/Certificates/Agile.png"
+                src={Agile}
                 alt="HP Agile Project Management Certificate"
                 className="certificate-image"
               />
-
             </div>
 
           </div>
@@ -167,31 +157,18 @@ function Certificates() {
                 Issued Mar 2026
               </p>
 
-              <a
-                href="#"
-                className="certificate-btn"
-              >
-                View Credential ↗
-              </a>
-
             </div>
 
 
             <div
               className="certificate-image-box"
-              onClick={() =>
-                setSelectedImage(
-                  "./src/assets/Certificates/proto2prod.jpeg"
-                )
-              }
+              onClick={() => setSelectedImage(Proto2Prod)}
             >
-
               <img
-                src="./src/assets/Certificates/proto2prod.jpeg"
+                src={Proto2Prod}
                 alt="PROD2PROD Certificate"
                 className="certificate-image"
               />
-
             </div>
 
           </div>
@@ -224,31 +201,18 @@ function Certificates() {
                 Credential ID: 71279-33213523-1016
               </span>
 
-              <a
-                href="#"
-                className="certificate-btn"
-              >
-                View Credential ↗
-              </a>
-
             </div>
 
 
             <div
               className="certificate-image-box"
-              onClick={() =>
-                setSelectedImage(
-                  "./src/assets/Certificates/Master Data.png"
-                )
-              }
+              onClick={() => setSelectedImage(MasterData)}
             >
-
               <img
-                src="./src/assets/Certificates/Master Data.png"
+                src={MasterData}
                 alt="Master Data Management Certificate"
                 className="certificate-image"
               />
-
             </div>
 
           </div>
@@ -277,31 +241,18 @@ function Certificates() {
                 Issued Jan 2026
               </p>
 
-              <a
-                href="#"
-                className="certificate-btn"
-              >
-                View Credential ↗
-              </a>
-
             </div>
 
 
             <div
               className="certificate-image-box"
-              onClick={() =>
-                setSelectedImage(
-                  "./src/assets/Certificates/PCI.png"
-                )
-              }
+              onClick={() => setSelectedImage(PCI)}
             >
-
               <img
-                src="./src/assets/Certificates/PCI.png"
+                src={PCI}
                 alt="PCI ATOM Sympo 4.0 Certificate"
                 className="certificate-image"
               />
-
             </div>
 
           </div>
@@ -335,7 +286,9 @@ function Certificates() {
               </span>
 
               <a
-                href="#"
+                href="https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiIzMjA0IiwiY2VydGlmaWNhdGVfdXJsIjoiaHR0cHM6XC9cL2NlcnRpZmljYXRlcy5zaW1wbGljZG4ubmV0XC9zaGFyZVwvMTAzOTY0OTBfMTA3MTE1ODhfMTc4MjQ3NzAyNDkxNy5wbmciLCJ1c2VybmFtZSI6IlJpdGVzaCBNYXJ1dGkgTm91a3Vka2FyIn0%3D&utm_source=shared-certificate&utm_medium=lms&utm_campaign=shared-certificate-promotion&referrer=https%3A%2F%2Flms.simplilearn.com%2Fcourses%2F5990%2FData-Analyst-101%2Fcertificate%2Fdownload-skillup&%24web_only=true&_branch_match_id=1557692232007094213&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL87MLcjJ1EssKNDLyczL1k%2FVDylN9PQJiCiINEmyrytKTUstKsrMS49PKsovL04tsvXJzMtOTfHMAwBasydoQQAAAA%3D%3D"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="certificate-btn"
               >
                 View Credential ↗
@@ -346,19 +299,13 @@ function Certificates() {
 
             <div
               className="certificate-image-box"
-              onClick={() =>
-                setSelectedImage(
-                  "./src/assets/Certificates/Data Analyst 101.png"
-                )
-              }
+              onClick={() => setSelectedImage(DataAnalyst101)}
             >
-
               <img
-                src="./src/assets/Certificates/Data Analyst 101.png"
+                src={DataAnalyst101}
                 alt="Data Analyst 101 Certificate"
                 className="certificate-image"
               />
-
             </div>
 
           </div>
@@ -392,7 +339,9 @@ function Certificates() {
               </span>
 
               <a
-                href="#"
+                href="https://www.theforage.com/completion-certificates/ifobHAoMjQs9s6bKS/gMTdCXwDdLYoXZ3wG_ifobHAoMjQs9s6bKS_eWsh5dW5Mxsd7xcJi_1783016455239_completion_certificate.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="certificate-btn"
               >
                 View Credential ↗
@@ -403,19 +352,13 @@ function Certificates() {
 
             <div
               className="certificate-image-box"
-              onClick={() =>
-                setSelectedImage(
-                  "./src/assets/Certificates/GEN AI Tata.png"
-                )
-              }
+              onClick={() => setSelectedImage(GenAITata)}
             >
-
               <img
-                src="./src/assets/Certificates/GEN AI Tata.png"
+                src={GenAITata}
                 alt="Tata GenAI Data Analytics Certificate"
                 className="certificate-image"
               />
-
             </div>
 
           </div>
@@ -448,31 +391,18 @@ function Certificates() {
                 Credential ID: 1f16a8cc124b105ab1aaaee1280d18f2
               </span>
 
-              <a
-                href="#"
-                className="certificate-btn"
-              >
-                View Credential ↗
-              </a>
-
             </div>
 
 
             <div
               className="certificate-image-box"
-              onClick={() =>
-                setSelectedImage(
-                  "./src/assets/Certificates/Google AI-ML.png"
-                )
-              }
+              onClick={() => setSelectedImage(GoogleAIML)}
             >
-
               <img
-                src="./src/assets/Certificates/Google AI-ML.png"
+                src={GoogleAIML}
                 alt="EduSkills AI ML Certificate"
                 className="certificate-image"
               />
-
             </div>
 
           </div>
@@ -506,7 +436,7 @@ function Certificates() {
               </span>
 
               <a
-                href="https://www.credly.com/badges/a05ae65b-20d2-41c2-8d30-b9c6839f67c7/public_url"
+                href="https://www.credly.com/badges/a05ae65b-20d2-41c2-8d30-b9c6839f67c7/linked_in_profile"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="certificate-btn"
@@ -519,19 +449,13 @@ function Certificates() {
 
             <div
               className="certificate-image-box"
-              onClick={() =>
-                setSelectedImage(
-                  "./src/assets/Certificates/IBm Batch.png"
-                )
-              }
+              onClick={() => setSelectedImage(IBMBatch)}
             >
-
               <img
-                src="./src/assets/Certificates/IBm Batch.png"
+                src={IBMBatch}
                 alt="IBM Data Analysis Using Python Certificate"
                 className="certificate-image"
               />
-
             </div>
 
           </div>
@@ -565,7 +489,9 @@ function Certificates() {
               </span>
 
               <a
-                href="#"
+                href="https://courses.cognitiveclass.ai/certificates/ae1ec304b7464a598d6c37441ceda8a8"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="certificate-btn"
               >
                 View Credential ↗
@@ -576,19 +502,13 @@ function Certificates() {
 
             <div
               className="certificate-image-box"
-              onClick={() =>
-                setSelectedImage(
-                  "./src/assets/Certificates/Cognitive Class.png"
-                )
-              }
+              onClick={() => setSelectedImage(CognitiveClass)}
             >
-
               <img
-                src="./src/assets/Certificates/Cognitive Class.png"
+                src={CognitiveClass}
                 alt="Cognitive Class Data Analysis with Python Certificate"
                 className="certificate-image"
               />
-
             </div>
 
           </div>
@@ -622,7 +542,9 @@ function Certificates() {
               </span>
 
               <a
-                href="#"
+                href="https://www.theforage.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_eWsh5dW5Mxsd7xcJi_1782471365952_completion_certificate.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="certificate-btn"
               >
                 View Credential ↗
@@ -633,19 +555,13 @@ function Certificates() {
 
             <div
               className="certificate-image-box"
-              onClick={() =>
-                setSelectedImage(
-                  "./src/assets/Certificates/Deloitte.png"
-                )
-              }
+              onClick={() => setSelectedImage(Deloitte)}
             >
-
               <img
-                src="./src/assets/Certificates/Deloitte.png"
+                src={Deloitte}
                 alt="Deloitte Data Analytics Certificate"
                 className="certificate-image"
               />
-
             </div>
 
           </div>
@@ -678,31 +594,18 @@ function Certificates() {
                 Credential ID: SROU230226
               </span>
 
-              <a
-                href="#"
-                className="certificate-btn"
-              >
-                View Credential ↗
-              </a>
-
             </div>
 
 
             <div
               className="certificate-image-box"
-              onClick={() =>
-                setSelectedImage(
-                  "./src/assets/Certificates/Skill Test.png"
-                )
-              }
+              onClick={() => setSelectedImage(SkillTest)}
             >
-
               <img
-                src="./src/assets/Certificates/Skill Test.png"
+                src={SkillTest}
                 alt="SQL Server Skill Test Certificate"
                 className="certificate-image"
               />
-
             </div>
 
           </div>
@@ -735,31 +638,18 @@ function Certificates() {
                 Credential ID: CALC270126
               </span>
 
-              <a
-                href="#"
-                className="certificate-btn"
-              >
-                View Credential ↗
-              </a>
-
             </div>
 
 
             <div
               className="certificate-image-box"
-              onClick={() =>
-                setSelectedImage(
-                  "./src/assets/Certificates/SQL Foundation.png"
-                )
-              }
+              onClick={() => setSelectedImage(SQLFoundation)}
             >
-
               <img
-                src="./src/assets/Certificates/SQL Foundation.png"
+                src={SQLFoundation}
                 alt="SQL Server Foundations Certificate"
                 className="certificate-image"
               />
-
             </div>
 
           </div>
@@ -768,9 +658,7 @@ function Certificates() {
 
 
 
-        {/* ================================================= */}
-        {/* FULLSCREEN CERTIFICATE POPUP */}
-        {/* ================================================= */}
+        {/* ================= FULLSCREEN CERTIFICATE POPUP ================= */}
 
         {selectedImage && (
 
@@ -784,8 +672,6 @@ function Certificates() {
               onClick={(e) => e.stopPropagation()}
             >
 
-              {/* CLOSE BUTTON */}
-
               <button
                 className="certificate-close"
                 onClick={() => setSelectedImage(null)}
@@ -793,9 +679,6 @@ function Certificates() {
               >
                 ×
               </button>
-
-
-              {/* FULL CERTIFICATE IMAGE */}
 
               <img
                 src={selectedImage}
