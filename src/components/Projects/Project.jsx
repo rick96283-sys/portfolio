@@ -70,7 +70,7 @@ function Projects() {
 
                 {/* Add your DreamPlay AI GitHub URL here */}
                 <a
-                  href="#"
+                  href="https://github.com/pra-tik-16/DreamPlay_AI"
                   className="project-btn primary-project-btn"
                 >
                   GitHub ↗
@@ -78,7 +78,7 @@ function Projects() {
 
                 {/* Add your live project URL here */}
                 <a
-                  href="#"
+                  href="https://github.com/pra-tik-16/DreamPlay_AI"
                   className="project-btn secondary-project-btn"
                 >
                   View Project ↗
@@ -128,7 +128,7 @@ function Projects() {
 
                 {/* Replace this URL with your actual repository */}
                 <a
-                  href="#"
+                  href="https://github.com/RiteshNoukudkar/OIBSIP-Internship/tree/main/Sentiment_Analysis"
                   className="project-btn primary-project-btn"
                 >
                   GitHub ↗
@@ -136,7 +136,7 @@ function Projects() {
 
                 {/* Replace this URL with your actual project */}
                 <a
-                  href="#"
+                  href="https://github.com/RiteshNoukudkar/OIBSIP-Internship/blob/main/Sentiment_Analysis/README.md"
                   className="project-btn secondary-project-btn"
                 >
                   View Project ↗
@@ -247,7 +247,7 @@ function Projects() {
 
                 {/* Replace this URL with your actual repository */}
                 <a
-                  href="#"
+                  href="https://github.com/RiteshNoukudkar/OIBSIP-Internship/tree/main/Customer_Segmentation"
                   className="project-btn primary-project-btn"
                 >
                   GitHub ↗
@@ -255,7 +255,7 @@ function Projects() {
 
                 {/* Replace this URL with your actual project */}
                 <a
-                  href="#"
+                  href="https://github.com/RiteshNoukudkar/OIBSIP-Internship/blob/main/Customer_Segmentation/README.md"
                   className="project-btn secondary-project-btn"
                 >
                   View Project ↗
