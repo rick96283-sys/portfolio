@@ -39,8 +39,7 @@ function Certificates() {
 
         <div className="certificates-grid">
 
-
-          {/* ================= 01 - TCS ================= */}
+          {/* ================= 01 - TCS ================+=  */}
 
           <div className="certificate-card">
 
