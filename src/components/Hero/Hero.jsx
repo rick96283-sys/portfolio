@@ -1,4 +1,5 @@
 import { useEffect,useState } from "react";
+import myProfile from "./assets/images/myprof.png";
 import "./Hero.css";
 import {
   FaGithub,
@@ -142,8 +143,7 @@ useEffect(() => {
 </div>
       </div>
 <div className="hero-image">
-           <img src="./src/assets/images/myprof.png" alt="Ritesh Noukudkar" />
-           </div>
+     <img src={myProfile} alt="Ritesh Noukudkar" />           </div>
     </section>
     
   );
