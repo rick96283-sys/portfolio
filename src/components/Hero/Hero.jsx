@@ -142,7 +142,7 @@ useEffect(() => {
 </div>
       </div>
 <div className="hero-image">
-    <img src="./src/assets/images/myprof.png" alt="Ritesh Noukudkar" />          </div>
+    <img src="../src/assets/images/myprof.png" alt="Ritesh Noukudkar" />          </div>
     </section>
     
   );
