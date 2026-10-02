@@ -1,5 +1,17 @@
 import { useState } from "react";
 import "./Certificates.css";
+import Agile from "../../assets/Certificates/Agile.png";
+import CognitiveClass from "../../assets/Certificates/Cognitive Class.png";
+import DataAnalyst101 from "../../assets/Certificates/Data Analyst 101.png";
+import Deloitte from "../../assets/Certificates/Deloitte.png";
+import GenAITata from "../../assets/Certificates/GEN AI Tata.png";
+import GoogleAIML from "../../assets/Certificates/Google AI-ML.png";
+import IBMBatch from "../../assets/Certificates/IBm Batch.png";
+import PCI from "../../assets/Certificates/PCI.png";
+import Proto2Prod from "../../assets/Certificates/proto2prod.jpeg";
+import SkillTest from "../../assets/Certificates/Skill Test.png";
+import SQLFoundation from "../../assets/Certificates/SQL Foundation.png";
+import YoungTCS from "../../assets/Certificates/young Tcs.png";
 
 
 function Certificates() {
@@ -71,14 +83,12 @@ function Certificates() {
             <div
               className="certificate-image-box"
               onClick={() =>
-                setSelectedImage(
-                  "./src/assets/Certificates/young Tcs.png"
-                )
+                setSelectedImage(YoungTCS)
               }
             >
 
               <img
-                src="./src/assets/Certificates/young Tcs.png"
+                src={YoungTCS}
                 alt="TCS iON Career Edge Certificate"
                 className="certificate-image"
               />
@@ -128,14 +138,12 @@ function Certificates() {
             <div
               className="certificate-image-box"
               onClick={() =>
-                setSelectedImage(
-                  "./src/assets/Certificates/Agile.png"
-                )
+                setSelectedImage(Agile)
               }
             >
 
               <img
-                src="./src/assets/Certificates/Agile.png"
+                src={Agile}
                 alt="HP Agile Project Management Certificate"
                 className="certificate-image"
               />
