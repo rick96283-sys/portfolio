@@ -3,7 +3,7 @@ import "./Certificates.css";
 import Agile from "../../assets/Certificates/Agile.png";
 import CognitiveClass from "../../assets/Certificates/Cognitive Class.png";
 import DataAnalyst101 from "../../assets/Certificates/Data Analyst 101.png";
-import Deloitte from "../../assets/Certificates/Deloitte.png";
+import Deloitte from "../../assets/Certificates/Delloite.png";
 import GenAITata from "../../assets/Certificates/GEN AI Tata.png";
 import GoogleAIML from "../../assets/Certificates/Google AI-ML.png";
 import IBMBatch from "../../assets/Certificates/IBm Batch.png";
