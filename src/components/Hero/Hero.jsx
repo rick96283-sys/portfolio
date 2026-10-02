@@ -1,5 +1,5 @@
 import { useEffect,useState } from "react";
-import myProfile from "./assets/images/myprof.png";
+import myProfile from "../assets/images/myprof.png";
 import "./Hero.css";
 import {
   FaGithub,
